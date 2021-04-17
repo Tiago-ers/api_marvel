@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import Page from "react-page-loading";
-import Pagination from "react-js-pagination";
+// import Pagination from "react-js-pagination";
 import axios from "axios";
 import RenderData from "../card/Card";
 
 function Characters() {
   const [caracter, setCaracter] = useState([]);
-  const [activePage, setActivePage] = useState(caracter.slice(0, 20));
+  // const [activePage, setActivePage] = useState(caracter.slice(0, 20));
 
   useEffect(() => {
     axios
@@ -18,7 +18,7 @@ function Characters() {
       });
   }, []);
 
-  console.log("Array", caracter);
+  // console.log("Array", caracter);
 
   return (
     <div>
