@@ -1,0 +1,17 @@
+.container-details {
+  border: 1px solid;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+  margin-bottom: 20px;
+  margin-left: 350px;
+  margin-top: 10px;
+  width: 550px;
+  max-height: 1250px;
+}
+
+.container-details p {
+  display: block;
+  margin-left: 25px;
+  margin-top: 50px;
+}

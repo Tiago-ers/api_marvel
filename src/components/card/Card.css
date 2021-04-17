@@ -1,0 +1,35 @@
+.card {
+  background-color: rgb(213, 223, 223);
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  display: inline-table;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 8px;
+  margin: 20px 0px 0px 25px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  position: relative;
+  border-radius: 5px 5px 0 0;
+  height: 280px;
+  width: 200px;
+}
+
+.card a {
+  color: rgba(0, 0, 0, 0.966);
+  text-decoration: none;
+}
+
+.container {
+  font-size: 12px;
+  margin: 10px, 0, 0;
+  padding: 0px 0px 0px 5px;
+  height: 65px;
+  margin-top: 10px;
+  max-width: 180px;
+}
