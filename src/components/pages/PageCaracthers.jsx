@@ -11,7 +11,7 @@ function Characters() {
   useEffect(() => {
     axios
       .get(
-        "http://gateway.marvel.com/v1/public/characters?ts=1&apikey=cc85a34058dbf80318bc2f9aaf4dc2da&hash=98d5fff5ed3b0faa7000ab839173a447"
+        "https://gateway.marvel.com/v1/public/characters?ts=1&apikey=cc85a34058dbf80318bc2f9aaf4dc2da&hash=98d5fff5ed3b0faa7000ab839173a447"
       )
       .then((response) => {
         setCaracter(response.data.data.results);
