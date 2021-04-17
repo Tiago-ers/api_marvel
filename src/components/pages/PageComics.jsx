@@ -18,6 +18,7 @@ function PageComics() {
 
   return (
     <div>
+    <h1>Vamos ver</h1>
       <Page loader={"bar"} color={"#A9A9A9"} size={10} number={2}>
         <RenderData data={comics} />
       </Page>
