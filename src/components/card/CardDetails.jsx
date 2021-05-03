@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function CardDetails({ data, rota }) {
-  console.log("details2", data);
+  console.log('details2', data);
 
-  if (rota == "characters") {
+  if (rota === 'characters') {
     return data.map((characters) => (
       <div>
         <h4>{characters.description}</h4>

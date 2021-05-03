@@ -17,10 +17,11 @@ input[type='password'] {
 /* Set a style for all buttons */
 button {
   background-color: #4caf50;
+  border: 1px;
   color: white;
+  height: 45px;
   padding: 14px 20px;
   margin: 8px 0;
-  border: none;
   cursor: pointer;
   width: 100%;
 }
@@ -71,8 +72,5 @@ span.psw {
   span.psw {
     display: block;
     float: none;
-  }
-  .cancelbtn {
-    width: 100%;
   }
 }

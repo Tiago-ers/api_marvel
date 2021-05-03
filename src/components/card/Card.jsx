@@ -22,6 +22,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Image from '../image/Image';
 import AddFavorite from '../favorite/Favorite';
+// import FindCard from '../find/FindCard';
 
 import './Card.css';
 
@@ -30,8 +31,6 @@ function RenderData({ data }) {
     return <div>Sem informação</div>;
   }
   return data.map((item) => {
-    // console.log("Card", item);
-
     if (item.name) {
       //PageCharacters
       return (
