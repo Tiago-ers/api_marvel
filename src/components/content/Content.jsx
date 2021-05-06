@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import {HashRouter,  Route, Switch } from 'react-router-dom';
 import PageCaracthers from '../pages/PageCaracthers';
 import PageComics from '../pages/PageComics';
 import PageDetails from '../pages/PageDetails';
