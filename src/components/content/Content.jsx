@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter,  Route, Switch } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import PageCaracthers from '../pages/PageCaracthers';
 import PageComics from '../pages/PageComics';
 import PageDetails from '../pages/PageDetails';
@@ -10,14 +10,14 @@ import PageLogin from '../pages/PageLogin.jsx';
 function Content() {
   return (
     <main>
-      <Switch>
+      <HashRouter>
         <Route exact path='/' component={PageHome} />
         <Route path='/caracters' component={PageCaracthers} />
         <Route path='/comics' component={PageComics} />
         <Route path='/favorites' component={PageFavorites} />
         <Route path='/details/:id' component={PageDetails} />
         <Route path='/login' component={PageLogin} />
-      </Switch>
+      </HashRouter>
     </main>
   );
 }
