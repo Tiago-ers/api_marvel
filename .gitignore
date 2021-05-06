@@ -1,5 +1,5 @@
 # Dependency directories
-node_modules/
+node_modules
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -13,3 +13,6 @@ typings/
 
 # Optional eslint cache
 .eslintcache
+
+# Local Netlify folder
+.netlify
